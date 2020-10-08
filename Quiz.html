@@ -8,15 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="Quiz.css">
  
-	<script >
-		function Submit() {
-			
-			alert("Your Quiz has been successfully submitted." )
-
-		}
-	</script>
 </head>
-<body>
+<body >
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #262626;">
   <a class="navbar-brand" href="Front Page.html" class="navbar-brand"> <i class="fa fa-book" aria-hidden="true"></i>VirtualLab</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +23,7 @@
         <li class="nav-item"><a class="nav-link"href="https://www.google.com/" target="_blank"><i class="fa fa-search" aria-hidden="true"></i>Search</a></li>
       </ul>
 
-        <ul class="navbar-nav">
+    <ul class="navbar-nav navbar-right">
         <li class="nav-item"><a class="nav-link" href="Signup.html">Sign Up <i class="fa fa-user-plus"></i></a></li>
         <li class="nav-item"><a class="nav-link" href="Login.html">Login <i class="fa fa-user"></i></a></li>
     </ul>
@@ -55,10 +48,10 @@
 <p><h3>1.  ______ is used in an operating system to separate mechanism from policy.</h3>
 <div class="choice">
 	<h4>
-<input type="radio" name="1" > Single level implementation <br>
-<input type="radio" name="1" > Two level implementation <br>
-<input type="radio" name="1" > Multi level implementation <br>
-<input type="radio" name="1" > None <br>
+<input type="radio" value="0"  id="q1" name="q1" onclick="question('q1',this.value)" > Single level implementation <br>
+<input type="radio" value="1"  id="q1" name="q1" onclick="question('q1',this.value)" > Two level implementation <br>
+<input type="radio" value="0"  id="q1" name="q1" onclick="question('q1',this.value)" > Multi level implementation <br>
+<input type="radio" value="0"  id="q1" name="q1" onclick="question('q1',this.value)" > None <br>
 </h4>
 </div>
 </p>
@@ -67,20 +60,20 @@
 <p><h3>2. The operating system creates _____ from the physical computer.</h3>
 <div class="choice">
 	<h4>
-<input type="radio" name="2"> Virtual space <br>
-<input type="radio" name="2"> Virtual computers <br>
-<input type="radio" name="2"> Virtual device <br>
-<input type="radio" name="2"> None <br>
+<input type="radio" value="0"  id="q2" name="q2" onclick="question('q2',this.value)"> Virtual space <br>
+<input type="radio" value="1"  id="q2" name="q2" onclick="question('q2',this.value)"> Virtual computers <br>
+<input type="radio" value="0"  id="q2" name="q2" onclick="question('q2',this.value)"> Virtual device <br>
+<input type="radio" value="0"  id="q2" name="q2" onclick="question('q2',this.value)"> None <br>
 </h4>
 </div></p>
 <hr>
-<p><h3>3. ______ shares characteristics with both hardware and software..</h3>
+<p><h3>3. ______ shares characteristics with both hardware and software.</h3>
 <div class="choice">
 	<h4>
-<input type="radio" name="3"> Operating System <br>
-<input type="radio" name="3"> Data <br>
-<input type="radio" name="3"> Software <br>
-<input type="radio" name="3"> None <br>
+<input type="radio" value="1"  id="q3" name="q3" onclick="question('q3',this.value)"> Operating System <br>
+<input type="radio" value="0"  id="q3" name="q3" onclick="question('q3',this.value)"> Data <br>
+<input type="radio" value="0"  id="q3" name="q3" onclick="question('q3',this.value)"> Software <br>
+<input type="radio" value="0"  id="q3" name="q3" onclick="question('q3',this.value)"> None <br>
 </h4>
 </div></p>
 <hr>
@@ -88,26 +81,28 @@
 <p><h3>4. Multiprogramming systems :</h3>
 <div class="choice">
 	<h4>
-<input type="radio" name="4"> Are easier to develop than single programming systems. <br>
-<input type="radio" name="4"> Execute each job faster. <br>
-<input type="radio" name="4"> Execute each job faster. <br>
-<input type="radio" name="4"> Are used only one large mainframe computers. <br>
+<input type="radio" value="0"  id="q4" name="q4" onclick="question('q4',this.value)"> Are easier to develop than single programming systems. <br>
+<input type="radio" value="0"  id="q4" name="q4" onclick="question('q4',this.value)"> Execute each job faster. <br>
+<input type="radio" value="1"  id="q4" name="q4" onclick="question('q4',this.value)"> Execute more jobs in the same time period. <br>
+<input type="radio" value="0"  id="q4" name="q4" onclick="question('q4',this.value)"> Are used only one large mainframe computers. <br>
 </h4>
 </div></p>
 <hr>
 <p><h3>5. Which is built directly on the hardware ?</h3>
 <div class="choice">
 	<h4>
-<input type="radio" name="5"> Operating System <br>
-<input type="radio" name="5"> Computer Environment<br>
-<input type="radio" name="5"> Application Software <br>
-<input type="radio" name="5"> Database System<br>
+<input type="radio" value="1"  id="q5" name="q5" onclick="question('q5',this.value)"> Operating System <br>
+<input type="radio" value="0"  id="q5" name="q5" onclick="question('q5',this.value)"> Computer Environment<br>
+<input type="radio" value="0"  id="q5" name="q5" onclick="question('q5',this.value)"> Application Software <br>
+<input type="radio" value="0"  id="q5" name="q5" onclick="question('q5',this.value)"> Database System<br>
 </h4>
 </div></p>
 <br>
-         <div>
+        <div>
 
-			<center><a href="Front Page.html"><button type="button" class="btn btn-info" value="Submit" onclick="Submit()"> Submit </button></a></center>
+			<center><a href="Front Page.html"><button type="button" class="btn btn-outline-info" id ="check" value="Submit"> Submit </button></a></center>
+
+
 		</div>
 </div>
 <hr>
@@ -123,7 +118,33 @@
 </div>
 
 
+<script type="text/javascript">
+  window.onload = function() {
+  check.onclick = result;
+}
 
+function result() {
+  var score = 0;
+  score += parseInt(getSelectedRadioValue("q1")) || 0;
+  score += parseInt(getSelectedRadioValue("q2")) || 0;
+  score += parseInt(getSelectedRadioValue("q3")) || 0;
+  score += parseInt(getSelectedRadioValue("q4")) || 0;
+  score += parseInt(getSelectedRadioValue("q5")) || 0;
+
+ 
+  alert("Your Quiz has been successfully submitted.\n\nYou scored: " + score + " out of 5!");
+}
+
+
+function getSelectedRadioValue(name) {
+  var radios = document.getElementsByName(name);
+  for (var i = 0; i < radios.length; i++) {
+    if (radios[i].checked) {
+      return radios[i].value;
+    }
+  }
+}
+</script>
 
 
 
