@@ -9,6 +9,17 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	
+	<style type="text/css">
+		body{
+			overflow-x: hidden;
+		}
+
+		.nav-item{
+			font-size: 20px;
+			padding-left: 10px;
+		}
+
+	</style>
   
 </head>
 <body>
@@ -21,13 +32,10 @@
     <ul class="navbar-nav">
     	<li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
     	<li class="nav-item"><a class="nav-link" href="About.html">About Us</a></li>
-		<li class="nav-item"><a class="nav-link" href="Quiz.html">Quiz</a></li>
-		<li class="nav-item"><a class="nav-link"href="https://www.google.com/" target="_blank"><i class="fa fa-search" aria-hidden="true"></i>Search</a></li>
-      </ul>
-
-    	<ul class="navbar-nav">
-		<li class="nav-item"><a class="nav-link" href="Signup.html">Sign Up <i class="fa fa-user-plus"></i></a></li>
-		<li class="nav-item"><a class="nav-link" href="Login.html">Login <i class="fa fa-user"></i></a></li>
+			<li class="nav-item"><a class="nav-link" href="Quiz.html">Quiz</a></li>
+			<li class="nav-item"><a class="nav-link"href="https://www.google.com/" target="_blank"><i class="fa fa-search" aria-hidden="true"></i>Search</a></li>
+			<li class="nav-item"><a class="nav-link" href="Signup.html">Sign Up <i class="fa fa-user-plus"></i></a></li>
+			<li class="nav-item"><a class="nav-link" href="Login.html">Login <i class="fa fa-user"></i></a></li>
 	</ul>
 
   </div>
@@ -61,9 +69,9 @@
 	</div>
 </div>
 
-<div class="row" style="margin-left: 5%;">
-	<div id="list-example" class="list-group col-4">
-	  <a class="list-group-item list-group-item-action" href="#list-item-1">Examples of Operating System with Market Share
+<div class="row mb-5" style="margin-left: 5%;">
+	<div id="list-example" class="list-group col-4 mx-auto" >
+	  <a class="list-group-item list-group-item-action active" href="#list-item-1">Examples of Operating System with Market Share
 </a>
 	  <a class="list-group-item list-group-item-action" href="#list-item-2">History Of OS</a>
 	  <a class="list-group-item list-group-item-action" href="#list-item-3">Features of Operating System</a>
@@ -88,7 +96,7 @@
 
 
 	</div>
-	<div data-spy="scroll" style="height: 800px; overflow-y: scroll" data-target="#list-example" data-offset="0" class="scrollspy-example col border p-3 rounded">
+	<div data-spy="scroll" style="height: 800px; overflow-y: scroll;" data-target="#list-example" data-offset="0" class="scrollspy-example col border p-3 rounded">
 	  <h3 id="list-item-1">Examples of Operating System with Market Share
 :</h3><br>
 	  <p>
@@ -98,7 +106,7 @@
 			<h5 style="margin-left: 10%;" >Here is a list of Operating Systems with the latest MarketShare</h5><br>
 			<img src="Market Share.png" style="width:70%; height: 30%; margin-left: 20%">
 	    </p>
-	  <h3 id="list-item-2">
+	  <h3 id="list-item-2" class="pt-5">
 History Of OS:</h3>
 	  <p>  
 	  	<h6>
@@ -113,7 +121,7 @@ History Of OS:</h3>
 		</h6>    
 	  
 		</p>
-	  <h3 id="list-item-3">Features of Operating System:</h3>
+	  <h3 id="list-item-3" class="pt-5">Features of Operating System:</h3>
 	  <p>
 	  	<h5 style="margin-left: 15%;">Here is a list commonly found important features of an Operating System</h5>
 		<p>
@@ -133,7 +141,7 @@ History Of OS:</h3>
 		    <img src="https://www.guru99.com/images/1/011819_0753_OperatingSy3.png" style="margin-left: 25%;">
 		</p>
 	  </p>
-	  <h3 id="list-item-4" >What is a Kernel?</h3>
+	  <h3 id="list-item-4" class="pt-5" >What is a Kernel?</h3>
 	  <p><h5 style="margin-left: 15%;">
 	  	The kernel is the central component of a computer operating systems.
 		The only job performed by the kernel is to the manage the communication
@@ -174,7 +182,7 @@ History Of OS:</h3>
 			</ol>
 		</h6>
 	    </p>
-	    <h3 id="list-item-5">Functions of an Operating System:</h3><br>
+	    <h3 id="list-item-5" class="pt-5">Functions of an Operating System:</h3><br>
 	    <img src="https://www.guru99.com/images/1/121119_0437_Componentso1.png" style="margin-left: 15%;"><br>
 	  <p><h4 style="margin-left:5%;">In an operating system software performs each of the function:</h4> </p>
 	  <p>
@@ -207,7 +215,7 @@ History Of OS:</h3>
     		</ol>
     		</h5>
 	  </p>
-	     <h3 id="list-item-6">Types of Operating System:</h3><br>
+	     <h3 id="list-item-6" class="pt-5">Types of Operating System:</h3><br>
 	     <p>
          <h5 style="margin-left: 15%">
          	<ul>
@@ -286,13 +294,13 @@ History Of OS:</h3>
     	</p>
     </p>
 
-	  <h3 id="list-item-7">Difference between Firmware and Operating System:</h3><br>
+	  <h3 id="list-item-7" class="pt-5">Difference between Firmware and Operating System:</h3><br>
 	  <p> <img src="Firmware.png" style="margin-left:5%;width:95%; height: auto;">    </p>
 	  <br>
-	  <h3 id="list-item-8">Difference between 32-Bit vs. 64 Bit Operating System:</h3><br>
+	  <h3 id="list-item-8" class="pt-5">Difference between 32-Bit vs. 64 Bit Operating System:</h3><br>
 	  <p>  <img src="32vs64.png"  style="margin-left:5%;width:95%; height: auto;">   </p>
 	  <br>
-	  <h3 id="list-item-9">The Advantage of using Operating System:</h3><br>
+	  <h3 id="list-item-9" class="pt-5">The Advantage of using Operating System:</h3><br>
 	  <p>
 	  <h5 style="margin-left: 10%;">
           	<ul>
@@ -306,7 +314,7 @@ History Of OS:</h3>
           	</ul>
           </h5> 
 	  </p>
-	  <h3 id="list-item-10">The Disadvantage of using Operating System
+	  <h3 id="list-item-10" class="pt-5">The Disadvantage of using Operating System
 :</h3><br>
 	  <p> <h5 style="margin-left: 10%;">
           	<ul>
@@ -316,7 +324,7 @@ History Of OS:</h3>
           		
           	</ul>
           </h5></p>
-          <h3 id="list-item-11">Summary:</h3><br>
+          <h3 id="list-item-11" class="pt-5">Summary:</h3><br>
           <p>
           	<h5 style="margin-left:10%; ">
           		<ul>
@@ -338,14 +346,13 @@ History Of OS:</h3>
 
 
 
-<div class="card-footer card text-white  border-success" style="background-color: #262626;">
+<div class="navbar navbar-expand-lg" style="background-color: #262626;">
 		<div class="container">
   		
-			  <center><div class="col"><a href="https://vibhj.github.io/vibhanshuj9/index.html" target="_blank" style="color: white;"><i class="fa fa-copyright" aria-hidden="true">Vibhanshuj9</i></a></div></center>
-  			</div>
-		</div>
-
+			  <span class="mx-auto"><a href="https://vibhj.github.io/vibhanshuj9/index.html" target="_blank" style="color: white;"><i class="fa fa-copyright" aria-hidden="true">vibhanshuj9</i></a></span>
+  	</div>
 </div>
+
 
 
 
